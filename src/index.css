@@ -20,6 +20,19 @@ nav {
   margin-bottom: 10px;
 }
 
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+ul > li {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 8px;
+  width: 80px;
+  text-align: center;
+}
+
 .card {
   border: solid 1px #999;
   border-radius: 8px;
