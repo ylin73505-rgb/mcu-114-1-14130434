@@ -3,21 +3,29 @@ header {
 
   div.container {
     max-width: 90vw;
-    height: 4rem;
     margin: 0px auto;
 
     padding-top: 2rem;
     padding-right: 2rem;
 
-    display: flex;
-    align-items: center;
+    > div {
+      height: 4rem;
 
-    h3 {
-      margin: 0px;
-      font-style: 1.25rem;
-      font-weight: 700;
-      line-height: 1.75rem;
-      color: #137fec;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h3 {
+        margin: 0px;
+        font-style: 1.25rem;
+        font-weight: 700;
+        line-height: 1.75rem;
+        color: #137fec;
+      }
+      > div {
+        display: flex;
+        gap: 0.5rem;
+      }
     }
   }
 }
